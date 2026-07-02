@@ -1,0 +1,14 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+
+# Dados e Segredos
+*.xlsx
+*.xls
+*.csv
+.env
+
+# Arquivos do Python
+__pycache__/
+*.pyc
