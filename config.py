@@ -8,12 +8,12 @@ class Config:
     EMAIL_PASS = os.getenv("EMAIL_PASS")
     EMAIL_HOST = "smtp.gmail.com"
     EMAIL_PORT = 587
-    EMAIL_SENDER = "sampacast_eventos@adesampa.com.br"
+    EMAIL_SENDER = "sampacast@adesampa.com.br"
     
     COL_EMAIL = "Usuário - Email"
     COL_NOME = "Usuário - Nome"
     COL_UNIDADE = "Unidade"
-    COL_DATA = "Data do Agendamento"
+    COL_DATA = "Data"
     
     MANUAL_URL = "https://adesampa.com.br/wp-content/uploads/2025/11/Manual-de-conduta-unificado.pdf" 
 

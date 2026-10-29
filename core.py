@@ -75,7 +75,7 @@ class ServicoEmail:
                     mensagem = ServicoEmail.mensagem_personalizada(name, historico_formatado)
                     
                     msg = EmailMessage()
-                    msg['Subject'] = '[RETIFICAÇÃO] Sampa Cast - Aviso de advertência'
+                    msg['Subject'] = 'Sampa Cast - Aviso de advertência'
                     msg['From'] = config.EMAIL_SENDER
                     msg['To'] = str(email)
                     msg.set_content(mensagem)
